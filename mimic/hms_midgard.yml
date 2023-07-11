@@ -1,0 +1,45 @@
+rooms:
+  - Galley
+  - Engineering
+  - Reactor
+  - Barracks
+  - Command
+  - Medical/Cryo
+  - Cargo
+  - Comms/Security
+
+nodes: 4
+
+connections:
+  - Galley.south.1
+  - Comms/Security.west.1
+  - Barracks.north.1
+  - 1.west.2
+  - Engineering.east.2
+  - Medical/Cryo.north.2
+  - 2.north.3
+  - 3.north.4
+  - Cargo.south.4
+  - Command.west.4
+  - Reactor.east.4
+
+room_table:
+  - Galley
+  - Engineering
+  - Reactor
+  - Barracks
+  - Command
+  - Medical/Cryo
+  - Cargo
+  - Comms/Security
+  - ColonyCryo
+  - MarkLJump
+  - DropShipBarracks
+  - PlanetaryReactor
+  - Gardens
+  - NuclearDemoAttempt
+  - ColonyHab
+  - CollectorsMuseum
+  - HighBattBridge
+  - HEART
+

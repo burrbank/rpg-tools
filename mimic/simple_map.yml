@@ -1,0 +1,17 @@
+rooms:
+  - A
+  - B
+  - C
+  - D
+  - E
+
+nodes: 2
+
+connections:
+  - A.south.1
+  - B.east.1
+  - C.south.2
+  - D.west.2
+  - E.north.1
+  - 1.east.2
+
